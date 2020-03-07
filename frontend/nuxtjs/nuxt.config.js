@@ -67,9 +67,5 @@ export default {
         })
       }
     }
-  },
-
-  router: {
-    base: '/proyek3-SuryaKaryaUtama/'
   }
 }

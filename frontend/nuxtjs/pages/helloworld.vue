@@ -16,7 +16,7 @@ import axios from 'axios'
 export default {
   async asyncData() {
     const { data } = await axios.get(
-      'https://github.com/noorrandi13/proyek3-SuryaKaryaUtama/backend/yii/web/index.php?r=site/hello-world'
+      'http://localhost/coba-yii-integration/web/index.php?r=site/hello-world'
     )
 
     return { title: data.text }
