@@ -1,4 +1,5 @@
 export default {
+    ...routerBase,
     mode: 'universal',
     /*
      ** Headers of the page
