@@ -55,5 +55,14 @@ export default {
          ** You can extend webpack config here
          */
         extend(config, ctx) {}
-    }
+    },
+    router: {
+        base: '/Proyek3-SuryaKaryaUtama/'
+      }
 }
+
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/Proyek3-SuryaKaryaUtama/'
+    }
+  } : {}
