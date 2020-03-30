@@ -1,0 +1,38 @@
+{
+    "title": "Questionnaire Test",
+    "questions": [
+      {
+        "text": "Is true true?",
+        "type": "tf",
+        "answer": "t"
+      },
+      {
+        "text": "Is false true?",
+        "type": "tf",
+        "answer": "f"
+      },
+      {
+        "text": "Berapa banyak kaki ayam?",
+        "type": "mc",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "Tidak ada"
+        ],
+        "answer": "2"
+      },
+      {
+        "text": "Berapa jumlah kaki seribu?",
+        "type": "mc",
+        "answers": [
+          "2",
+          "4",
+          "Tidak tahu",
+          "Banyak"
+        ],
+        "answer": "Banyak"
+      }
+    ]
+  }
+  
